@@ -1,0 +1,605 @@
+# NOTE:
+# 'slug' must match the name of the component package on Packagist.org without the 'symfony/' vendor
+# 'docUrl' is the main component doc page relative to 'https://symfony.com/doc/{version}/components/'
+
+Asset:
+    slug: asset
+    docUrl: asset.html
+    docPage: components/asset
+    deprecated: false
+    description: |
+        Manages URL generation and versioning of web assets such as CSS
+        stylesheets, JavaScript files and image files.
+
+BrowserKit:
+    slug: browser-kit
+    docUrl: browser_kit.html
+    docPage: components/browser_kit
+    deprecated: false
+    description: |
+        Simulates the behavior of a web browser.
+
+Cache:
+    slug: cache
+    docUrl: cache.html
+    docPage: components/cache
+    deprecated: false
+    description: |
+        Implements PSR-6 and PSR-16 caching mechanisms and provides adapters for
+        popular caching backends (Redis, Memcache, APCu, etc.)
+
+ClassLoader:
+    slug: class-loader
+    docUrl: class_loader.html
+    docPage: components/class_loader
+    deprecated: false
+    description: |
+        Loads your project classes automatically if they follow some standard
+        PHP conventions.
+
+Config:
+    slug: config
+    docUrl: config.html
+    docPage: components/config
+    deprecated: false
+    description: |
+        Helps you find, load, combine, autofill and validate configuration values.
+
+Console:
+    slug: console
+    docUrl: console.html
+    docPage: components/console
+    deprecated: false
+    description: |
+        Eases the creation of beautiful and testable command line interfaces.
+
+Contracts:
+    slug: contracts
+    docUrl: contracts.html
+    docPage: components/contracts
+    deprecated: false
+    description: |
+        A set of abstractions extracted out of the Symfony components.
+
+CssSelector:
+    slug: css-selector
+    docUrl: css_selector.html
+    docPage: components/css_selector
+    deprecated: false
+    description: |
+        Converts CSS selectors to XPath expressions.
+
+Debug:
+    slug: debug
+    docUrl: debug.html
+    docPage: components/debug
+    deprecated: true
+    description: |
+        Provides tools to ease debugging PHP code.
+
+DependencyInjection:
+    slug: dependency-injection
+    docUrl: dependency_injection.html
+    docPage: components/dependency_injection
+    deprecated: false
+    description: |
+        Allows you to standardize and centralize the way objects are constructed
+        in your application.
+
+Dotenv:
+    slug: dotenv
+    docUrl: dotenv.html
+    docPage: components/dotenv
+    deprecated: false
+    description: |
+        Parses .env files to make environment variables stored in them accessible
+        via getenv(), $_ENV or $_SERVER.
+
+DomCrawler:
+    slug: dom-crawler
+    docUrl: dom_crawler.html
+    docPage: components/dom_crawler
+    deprecated: false
+    description: |
+        Eases DOM navigation for HTML and XML documents.
+
+ErrorHandler:
+    slug: error-handler
+    docUrl: error_handler.html
+    docPage: components/error_handler
+    deprecated: false
+    description: |
+        Provides tools to manage errors and ease debugging PHP code.
+
+EventDispatcher:
+    slug: event-dispatcher
+    docUrl: event_dispatcher.html
+    docPage: components/event_dispatcher
+    deprecated: false
+    description: |
+        Implements the Mediator pattern in a simple and effective way to make
+        projects truly extensible.
+
+ExpressionLanguage:
+    slug: expression-language
+    docUrl: expression_language.html
+    docPage: components/expression_language
+    deprecated: false
+    description: |
+        Provides an engine that can compile and evaluate expressions.
+
+Filesystem:
+    slug: filesystem
+    docUrl: filesystem.html
+    docPage: components/filesystem
+    deprecated: false
+    description: |
+        Provides basic utilities for the filesystem.
+
+Finder:
+    slug: finder
+    docUrl: finder.html
+    docPage: components/finder
+    deprecated: false
+    description: |
+        Finds files and directories via an intuitive fluent interface.
+
+Form:
+    slug: form
+    docUrl: form.html
+    docPage: components/form
+    deprecated: false
+    description: |
+        Provides tools to easy creating, processing and reusing HTML forms.
+
+Guard:
+    slug: security-guard
+    docUrl: ~
+    docPage: ~
+    deprecated: false
+    description: |
+        Brings many layers of authentication together, making it much easier to
+        create complex authentication systems where you have total control.
+
+HttpClient:
+    slug: http-client
+    docUrl: http_client.html
+    docPage: components/http_client
+    deprecated: false
+    description: |
+        A low-level HTTP client with support for both PHP stream wrappers and
+        cURL. It also provides utilities to consume APIs.
+
+HttpFoundation:
+    slug: http-foundation
+    docUrl: http_foundation.html
+    docPage: components/http_foundation
+    deprecated: false
+    description: |
+        Defines an object-oriented layer for the HTTP specification.
+
+HttpKernel:
+    slug: http-kernel
+    docUrl: http_kernel.html
+    docPage: components/http_kernel
+    deprecated: false
+    description: |
+        Provides the building blocks to create flexible and fast HTTP-based
+        frameworks.
+
+Icu:
+    slug: icu
+    docUrl: ~
+    docPage: ~
+    deprecated: true
+    description: |
+        Contains the data of the ICU library in a specific version. This component
+        is deprecated since October 2014, use the Intl component instead.
+
+Inflector:
+    slug: inflector
+    docUrl: inflector.html
+    docPage: components/inflector
+    deprecated: true
+    description: |
+        Converts English words between their singular and plural forms.
+
+Intl:
+    slug: intl
+    docUrl: intl.html
+    docPage: components/intl
+    deprecated: false
+    description: |
+        Provides fallback code to handle cases when the intl extension is missing.
+
+Ldap:
+    slug: ldap
+    docUrl: ldap.html
+    docPage: components/ldap
+    deprecated: false
+    description: |
+        Provides an LDAP client for PHP on top of PHP's ldap extension.
+
+Locale:
+    slug: locale
+    docUrl: locale.html
+    docPage: components/locale
+    deprecated: true
+    description: |
+        Provides fallback code to handle cases when the intl extension is missing.
+        This component is deprecated since 2.3, use the Intl component instead.
+
+Lock:
+    slug: lock
+    docUrl: lock.html
+    docPage: components/lock
+    deprecated: false
+    description: |
+        Creates and manages locks, a mechanism to provide exclusive access to a
+        shared resource.
+
+Mailer:
+    slug: mailer
+    docUrl: mailer.html
+    docPage: components/mailer
+    deprecated: false
+    description: |
+        Helps sending emails and provides integration with the most popular
+        mailing services.
+
+Messenger:
+    slug: messenger
+    docUrl: messenger.html
+    docPage: components/messenger
+    deprecated: false
+    description: |
+        Helps applications send and receive messages to/from other applications
+        or via message queues.
+
+Mime:
+    slug: mime
+    docUrl: mime.html
+    docPage: components/mime
+    deprecated: false
+    description: |
+        Allows manipulating MIME messages, used to create advanced email
+        messages.
+
+Notifier:
+    slug: notifier
+    docUrl: ~
+    docPage: notifier
+    deprecated: false
+    description: |
+        Sends notifications via one or more channels (email, SMS, Slack, Telegram, ...)
+
+OptionsResolver:
+    slug: options-resolver
+    docUrl: options_resolver.html
+    docPage: components/options_resolver
+    deprecated: false
+    description: |
+        Helps you configuring objects with option arrays.
+
+Process:
+    slug: process
+    docUrl: process.html
+    docPage: components/process
+    deprecated: false
+    description: |
+        Executes commands in sub-processes.
+
+PropertyAccess:
+    slug: property-access
+    docUrl: property_access.html
+    docPage: components/property_access
+    deprecated: false
+    description: |
+        Provides function to read and write from/to an object or array using a
+        simple string notation.
+
+PropertyInfo:
+    slug: property-info
+    docUrl: property_info.html
+    docPage: components/property_info
+    deprecated: false
+    description: |
+        Extracts information about the properties of PHP classes using metadata
+        of popular sources (Doctrine, PHP Reflection, PHPdoc, etc.)
+
+Routing:
+    slug: routing
+    docUrl: routing.html
+    docPage: components/routing
+    deprecated: false
+    description: |
+        Maps an HTTP request to a set of configuration variables.
+
+Security:
+    slug: security
+    docUrl: security.html
+    docPage: components/security
+    deprecated: false
+    description: |
+        Provides an infrastructure for sophisticated authorization systems.
+
+Serializer:
+    slug: serializer
+    docUrl: serializer.html
+    docPage: components/serializer
+    deprecated: false
+    description: |
+        Turns objects into a specific format (XML, JSON, Yaml, ...) and the
+        other way around.
+
+Stopwatch:
+    slug: stopwatch
+    docUrl: stopwatch.html
+    docPage: components/stopwatch
+    deprecated: false
+    description: |
+        Provides a way to profile code.
+
+String:
+    slug: string
+    docUrl: string.html
+    docPage: components/string
+    deprecated: false
+    description: |
+        Provides an object-oriented API to strings and deals with bytes, UTF-8
+        code points and grapheme clusters in a unified way. It also provides a
+        slugger and an inflector.
+
+Templating:
+    slug: templating
+    docUrl: templating.html
+    docPage: components/templating
+    deprecated: false
+    description: |
+        Provides all the tools needed to build any kind of template system.
+
+Translation:
+    slug: translation
+    docUrl: translation.html
+    docPage: components/translation
+    deprecated: false
+    description: |
+        Provides tools to internationalize your application.
+
+Uid:
+    slug: uid
+    docUrl: uid.html
+    docPage: components/uid
+    deprecated: false
+    description: |
+        Provides tools to work with unique identifiers such as UUIDs and ULIDs.
+
+Validator:
+    slug: validator
+    docUrl: validator.html
+    docPage: components/validator
+    deprecated: false
+    description: |
+        Provides tools to validate classes.
+
+VarDumper:
+    slug: var-dumper
+    docUrl: var_dumper.html
+    docPage: components/var_dumper
+    deprecated: false
+    description: |
+        Provides mechanisms for walking through any arbitrary PHP variable.
+
+VarExporter:
+    slug: var-exporter
+    docUrl: var_exporter.html
+    docPage: components/var_exporter
+    deprecated: false
+    description: |
+        Exports any serializable PHP data structure to plain PHP code and allows
+        to instantiate and populate objects without calling their constructors.
+
+WebLink:
+    slug: web-link
+    docUrl: web_link.html
+    docPage: components/web_link
+    deprecated: false
+    description: |
+        Implements HTML5 Links, Preload and Resource Hints specifications to
+        advise clients (browsers) to preload and prefetch documents through HTTP
+        and HTTP/2 pushes.
+
+'Webpack Encore':
+    slug: webpack-encore
+    docUrl: frontend.html
+    docPage: frontend
+    deprecated: false
+    description: |
+        A simpler way to integrate Webpack into your application, giving you a
+        powerful API for bundling JavaScript modules, pre-processing CSS & JS
+        and compiling and minifying assets.
+
+Workflow:
+    slug: workflow
+    docUrl: workflow.html
+    docPage: components/workflow
+    deprecated: false
+    description: |
+        Provides tools for managing a workflow or finite state machine.
+
+Yaml:
+    slug: yaml
+    docUrl: yaml.html
+    docPage: components/yaml
+    deprecated: false
+    description: |
+        Loads and dumps YAML files.
+
+'PHPUnit Bridge':
+    slug: phpunit-bridge
+    docUrl: phpunit_bridge.html
+    docPage: components/phpunit_bridge
+    deprecated: false
+    description: |
+        Provides utilities to report legacy tests and usage of deprecated code
+        and a helper for time-sensitive tests.
+
+'Polyfill APCu':
+    slug: polyfill-apcu
+    docUrl: polyfill_apcu.html
+    docPage: components/polyfill_apcu
+    deprecated: false
+    description: |
+        Provides apcu_* functions and the APCUIterator class to users of the
+        legacy APC extension.
+
+'Polyfill Ctype':
+    slug: polyfill-ctype
+    docUrl: polyfill_ctype.html
+    docPage: components/polyfill_ctype
+    deprecated: false
+    description: |
+        Provides a partial, native PHP implementation for the ctype extension.
+
+'Polyfill PHP 5.4':
+    slug: polyfill-php54
+    docUrl: polyfill_php54.html
+    docPage: components/polyfill_php54
+    deprecated: false
+    description: |
+        Provides functions unavailable in releases prior to PHP 5.4.
+
+'Polyfill PHP 5.5':
+    slug: polyfill-php55
+    docUrl: polyfill_php55.html
+    docPage: components/polyfill_php55
+    deprecated: false
+    description: |
+        Provides functions unavailable in releases prior to PHP 5.5.
+
+'Polyfill PHP 5.6':
+    slug: polyfill-php56
+    docUrl: polyfill_php56.html
+    docPage: components/polyfill_php56
+    deprecated: false
+    description: |
+        Provides functions unavailable in releases prior to PHP 5.6.
+
+'Polyfill PHP 7.0':
+    slug: polyfill-php70
+    docUrl: polyfill_php70.html
+    docPage: components/polyfill_php70
+    deprecated: false
+    description: |
+        Provides functions unavailable in releases prior to PHP 7.0.
+
+'Polyfill PHP 7.1':
+    slug: polyfill-php71
+    docUrl: polyfill_php71.html
+    docPage: components/polyfill_php71
+    deprecated: false
+    description: |
+        Provides functions unavailable in releases prior to PHP 7.1.
+
+'Polyfill PHP 7.2':
+    slug: polyfill-php72
+    docUrl: polyfill_php72.html
+    docPage: components/polyfill_php72
+    deprecated: false
+    description: |
+        Provides functions unavailable in releases prior to PHP 7.2.
+
+'Polyfill PHP 7.3':
+    slug: polyfill-php73
+    docUrl: polyfill_php73.html
+    docPage: components/polyfill_php73
+    deprecated: false
+    description: |
+        Provides functions unavailable in releases prior to PHP 7.3.
+
+'Polyfill Iconv':
+    slug: polyfill-iconv
+    docUrl: polyfill_iconv.html
+    docPage: components/polyfill_iconv
+    deprecated: false
+    description: |
+        Provides a native PHP implementation of the php.net/iconv functions.
+
+'Polyfill Intl Grapheme':
+    slug: polyfill-intl-grapheme
+    docUrl: polyfill_intl_grapheme.html
+    docPage: components/polyfill_intl_grapheme
+    deprecated: false
+    description: |
+        Provides a partial, native PHP implementation of the Grapheme functions
+        from the Intl extension.
+
+'Polyfill Intl ICU':
+    slug: polyfill-intl-icu
+    docUrl: polyfill_intl_icu.html
+    docPage: components/polyfill_intl_icu
+    deprecated: false
+    description: |
+        Provides a collection of functions/classes using the symfony/intl
+        package when the Intl extension is not installed.
+
+'Polyfill Intl IDN':
+    slug: polyfill-intl-idn
+    docUrl: polyfill_intl_idn.html
+    docPage: components/polyfill_intl_idn
+    deprecated: false
+    description: |
+        Provides a collection of functions related to IDN when the Intl
+        extension is not installed.
+
+'Polyfill Intl MessageFormatter':
+    slug: polyfill-intl-messageformatter
+    docUrl: polyfill_intl_messageformatter.html
+    docPage: components/polyfill_intl_messageformatter
+    deprecated: false
+    description: |
+        Provides a fallback implementation for the MessageFormatter class
+        provided by the Intl extension.
+
+'Polyfill Intl Normalizer':
+    slug: polyfill-intl-normalizer
+    docUrl: polyfill_intl_normalizer.html
+    docPage: components/polyfill_intl_normalizer
+    deprecated: false
+    description: |
+        Provides a fallback implementation for the Normalizer class provided by
+        the Intl extension.
+
+'Polyfill Mbstring':
+    slug: polyfill-mbstring
+    docUrl: polyfill_mbstring.html
+    docPage: components/polyfill_mbstring
+    deprecated: false
+    description: |
+        Provides a partial, native PHP implementation for the Mbstring extension.
+
+'Polyfill Util':
+    slug: polyfill-util
+    docUrl: ~
+    docPage: ~
+    deprecated: false
+    description: |
+        Provides binary-safe string functions, using the mbstring extension
+        when available.
+
+'Polyfill UUID':
+    slug: polyfill-uuid
+    docUrl: polyfill_uuid.html
+    docPage: components/polyfill_uuid
+    deprecated: false
+    description: |
+        Provides a native PHP implementation for the UUID extension.
+
+'Polyfill Xml':
+    slug: polyfill-xml
+    docUrl: ~
+    docPage: components/polyfill_xml
+    deprecated: true
+    description: |
+        Provides a fallback implementation for the following functions in the
+        abscense of the XML extension.

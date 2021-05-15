@@ -1,32 +1,10 @@
-name: Symfony Full Stack
-url: http://symfony.com
-dependencies: []
-components:
-    - BrowserKit
-    - ClassLoader
-    - Config
-    - Console
-    - CssSelector
-    - Debug
-    - DependencyInjection
-    - DomCrawler
-    - EventDispatcher
-    - Filesystem
-    - Finder
-    - Form
-    - HttpFoundation
-    - HttpKernel
-    - Locale
-    - Intl
-    - Icu
-    - OptionsResolver
-    - Process
-    - PropertyAccess
-    - Routing
-    - Security
-    - Serializer
-    - Stopwatch
-    - Templating
-    - Translation
-    - Validator
-    - Yaml
+name: Symfony
+url: https://symfony.com
+dependencies:
+    - https://github.com/symfony/symfony/blob/master/composer.json
+description: |
+    Symfony is an Open Source PHP Web applications development framework.
+    It was originally conceived by the interactive agency SensioLabs for
+    the development of web sites for its own customers. Symfony was
+    published by the agency in 2005 under MIT Open Source license and today
+    it is among the leading frameworks available for PHP development.

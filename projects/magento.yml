@@ -1,6 +1,10 @@
 name: Magento
 url: http://magento.com
-dependencies: []
-components:
-    - Console
-    - EventDispatcher
+dependencies:
+    - https://github.com/magento/magento2/blob/2.3/composer.json
+    - https://github.com/magento/magento-composer-installer/blob/master/composer.json
+description: |
+    Magento offers flexible, scalable eCommerce solutions designed to help
+    you grow and succeed online. Our cost-effective technology platform
+    makes it possible for you to control the content, functionality, and
+    look and feel of your online store.

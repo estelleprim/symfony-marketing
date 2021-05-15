@@ -1,0 +1,114 @@
+# the order of projects in each category is important because the first ones
+# are highlighted on symfony.com
+cms:
+    - drupal
+    - joomla
+    - ezplatform
+    - grav
+    - symfonycmf
+    - typo3
+    - sulu
+    - bolt
+    - pagekit
+    - forkcms
+    - kunstmaanbundles
+    - victoire
+    - zikula
+    - octobercms
+    - backbee
+    - concrete5
+    - roadiz
+    - contao
+    - initcms
+    - pico
+    - pyro
+e-commerce:
+    - magento
+    - prestashop
+    - sylius
+    - shopware
+    - sonataecommerce
+    - eccube
+    - aimeos
+    - thelia
+    - mothership
+    - spryker
+    - orocommerce
+    - shopsysframework
+    - uvdesk
+framework:
+    - laravel
+    - symfonyfs
+    - yii
+    - cakephp
+    - zendexpressive
+    - silex
+    - lumen
+    - flow
+    - ppi
+pim-crm:
+    - orocrm
+    - akeneo
+    - pimcore
+    - civicrm
+code-quality:
+    - php-cs-fixer
+    - phan
+    - phpstan
+    - behat
+    - phpspec
+    - codeception
+    - deptrac
+    - quality-analyzer
+    - pdepend
+    - php-censor
+    - infection
+sdk:
+    - google-api
+    - facebook-ads
+    - google-cloud-platform
+    - facebook-instant-articles
+# the order in the default category is irrelevant because these projects are
+# displayed in alphabetical order
+default:
+    - apiplatform
+    - assetic
+    - botman
+    - bowerphp
+    - cachet
+    - carew
+    - composer
+    - deployer
+    - doctrine
+    - drupalconsole
+    - drush
+    - flarum
+    - goutte
+    - matomo
+    - mautic
+    - morfeu
+    - oroplatform
+    - owncloud
+    - phpbb
+    - phpdocumentor
+    - phpmailer
+    - phpmyadmin
+    - phpmyfaq
+    - phpredexpert
+    - propel
+    - ratchet
+    - rocketeer
+    - sami
+    - sculpin
+    - silverstripe
+    - sismo
+    - solidinvoice
+    - sonataproject
+    - spress
+    - wallabag
+    - wpcli
+    - psysh
+    - automate
+    - wikimedia
+    - carbon
+    - openloyalty

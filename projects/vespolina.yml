@@ -1,5 +1,0 @@
-name: Vespolina
-url: http://vespolina.org
-dependencies:
-    - symfonyfs
-components: []

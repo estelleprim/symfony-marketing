@@ -1,23 +1,11 @@
 name: Mautic
 url: https://www.mautic.org
-dependencies: []
-components:
-    - ClassLoader
-    - Config
-    - Console
-    - Debug
-    - DependencyInjection
-    - EventDispatcher
-    - Finder
-    - Form
-    - HttpFoundation
-    - HttpKernel
-    - Intl
-    - OptionsResolver
-    - Process
-    - Routing
-    - Security
-    - Templating
-    - Translation
-    - Validator
-    - Yaml
+dependencies:
+    - https://github.com/mautic/mautic/blob/master/composer.json
+description: |
+    Mautic revolutionizes marketing automation. Mautic is an open source
+    software tool available to every business regardless of their size
+    and economic standing. Mautic provides lead nurturing, lead monitoring,
+    automated email marketing campaigns, social media integrations,
+    landing pages, assets, reports, calendar, events, analytics, forms
+    and more. Mautic makes marketing automation possible for everyone.

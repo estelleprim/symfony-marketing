@@ -1,10 +1,9 @@
 name: concrete5
 url: http://www.concrete5.org/
-dependencies: []
-components:
-    - ClassLoader
-    - EventDispatcher
-    - HttpFoundation
-    - HttpKernel
-    - Routing
-    - Serializer
+dependencies:
+    - https://github.com/concrete5/concrete5-core/blob/develop/composer.json
+description: |
+    Concrete5 is an open source CMS designed to revolutionize user experience.
+    Go to any page in your site, and an editing toolbar gives you all the
+    controls you need to update your website. No intimidating manuals, no
+    complicated administration interfaces - just point and click.

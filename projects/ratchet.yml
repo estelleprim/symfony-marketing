@@ -1,0 +1,8 @@
+name: Ratchet
+url: http://socketo.me/
+dependencies:
+    - https://github.com/ratchetphp/Ratchet/blob/master/composer.json
+description: |
+    A PHP library for asynchronously serving WebSockets. Build up your
+    application through simple interfaces and re-use your application without
+    changing any of its code just by combining different components.

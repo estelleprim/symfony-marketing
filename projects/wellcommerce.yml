@@ -1,5 +1,0 @@
-name: WellCommerce
-url: http://wellcommerce.org
-dependencies:
-    - symfonyfs
-components: []

@@ -1,5 +1,18 @@
 name: Aimeos e-commerce components
 url: https://aimeos.org/Symfony
 dependencies:
-    - symfonyfs
-components: []
+    - https://github.com/aimeos/aimeos-symfony/blob/master/composer.json
+    - https://github.com/aimeos/ai-fosuser/blob/master/composer.json
+    - https://github.com/aimeos/ai-monolog/blob/master/composer.json
+    - https://github.com/aimeos/ai-swiftmailer/blob/master/composer.json
+    - https://github.com/aimeos/ai-symfony/blob/master/composer.json
+    - https://github.com/aimeos/ai-twig/blob/master/composer.json
+description: |
+    We enable you to do #gigacommerce! From one to 1 billion articles
+    and from simple to complex products in your online shop, Aimeos is
+    the first choice if you have non-standard requirements. With Aimeos,
+    you get a professional, full-featured, well tested and highly
+    customizable e-commerce bundle for Symfony split into several
+    independent components like HTML frontend, JSON REST API and
+    administration interface. For a quick start, a working demo shop
+    including most of the features is set up during first installation.
